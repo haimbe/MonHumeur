@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFF00"
+        android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/TresBonneHumeur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:onClick="logo_humeur"
+        android:src="@drawable/smileygoodmood"></ImageButton>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#58FA82"
+        android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/BonneHumeur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:onClick="logo_humeur"
+        android:src="@drawable/moodveryok"></ImageButton>
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#B0C4DE"
+         android:orientation="vertical">
+     <ImageButton
+         android:id="@+id/HumeurNormale"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:adjustViewBounds="true"
+         android:onClick="logo_humeur"
+         android:src="@drawable/neutralmood"></ImageButton>
+     </LinearLayout>
+
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#DCDCDC"
+         android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/MauvaiseHumeur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:onClick="logo_humeur"
+        android:src="@drawable/sadmood"></ImageButton>
+     </LinearLayout>
+        <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#F08080"
+         android:orientation="vertical">
+         <ImageButton
+         android:id="@+id/TresMauvaiseHumeur"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:adjustViewBounds="true"
+         android:onClick="logo_humeur"
+         android:src="@drawable/verysadmood"></ImageButton>
+     </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
