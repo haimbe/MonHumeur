@@ -3,8 +3,10 @@ package com.example.monhumeur;
 import java.util.HashMap;
 import java.util.Map;
 
+
+
 public class User {
-    String smiley;
+
     String color;
 
     Map<String, String> humeur = new HashMap<String, String>();
